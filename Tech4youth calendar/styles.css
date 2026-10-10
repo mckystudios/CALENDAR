@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Calendarmainsection{
+    background-color: rgb(223, 220, 220);
+    padding: 100px;
+}
+.month h1{
+    font-size: 300px;
+    letter-spacing: -30px;
+}
+.text-cal{
+    background-color: white;
+    padding: 50px;
+}
+.tbcalendar{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.tbcalendar th{
+    color: #0808ed;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 12px 0;
+    border: none;
+}
+.tbcalendar th:first-child, .tbcalendar th:last-child{
+    background: #0808ed;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+.tbcalendar td{
+    border: 1px solid #777;
+    height: 150px;
+    padding: 8px;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;
+    color: #111;
+    position: relative;
+}
+
+/* second calendar */
+
+.second-calendar{
+    background: #204A91;
+    padding: 50px;
+}
+.main-table-cont{
+    background: #F5F2E9;
+}
+.text-1cont{
+    padding: 20px;
+}
+.text-2cont{
+    border: 3px solid #204A91;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.text-2cont h1, h2, h3{
+    color: #204A91;
+    font-weight: 700;
+}
+.text-2cont p{
+    color: #C8102E;
+    font-weight: 700;
+}
+.tfy{
+    font-size: 100px;
+    font-weight: 900;
+    word-spacing: -10px;
+}
+.table-cont{
+    padding: 20px;
+}
+.calandar{
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #204A91;
+}
+.calandar th, td{
+    border: 1px solid #204A91;
+    height: 100px;
+    padding: 15px;
+}
+.calandar th{
+    vertical-align: bottom;
+}
+.calandar td{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+.calandar th:nth-child(1), td:nth-child(1){
+    color: #C8102E;
+}
+.calandar td:nth-child(7), th:nth-child(7){
+    color: #204A91;
+}
